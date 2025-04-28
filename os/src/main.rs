@@ -72,6 +72,7 @@ fn kernel_log_info() {
     }
     logging::init();
     println!("[kernel] Hello, world!");
+    
     trace!(
         "[kernel] .text [{:#x}, {:#x})",
         stext as usize,
